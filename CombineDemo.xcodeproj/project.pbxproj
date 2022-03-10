@@ -21,6 +21,7 @@
 		E26ADA4C27D77B360027F4BD /* CustomSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ADA4B27D77B360027F4BD /* CustomSubscriber.swift */; };
 		E26ADA4F27D8860A0027F4BD /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ADA4E27D8860A0027F4BD /* SubjectViewController.swift */; };
 		E26ADA5127D886A30027F4BD /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ADA5027D886A30027F4BD /* PopUpViewController.swift */; };
+		E26ADA5627DA0EDC0027F4BD /* LoginDemoByLatestCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ADA5527DA0EDC0027F4BD /* LoginDemoByLatestCombine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E26ADA4B27D77B360027F4BD /* CustomSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSubscriber.swift; sourceTree = "<group>"; };
 		E26ADA4E27D8860A0027F4BD /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
 		E26ADA5027D886A30027F4BD /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		E26ADA5527DA0EDC0027F4BD /* LoginDemoByLatestCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoByLatestCombine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		E26ADA2627D222660027F4BD /* CombineDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E26ADA5427DA0E7F0027F4BD /* LoginDemoByLatestCombine */,
 				E26ADA4D27D885EF0027F4BD /* Subject */,
 				E26ADA4A27D77B170027F4BD /* CustomSubscriber */,
 				E26ADA4927D709EE0027F4BD /* Model */,
@@ -145,6 +148,14 @@
 				E26ADA5027D886A30027F4BD /* PopUpViewController.swift */,
 			);
 			path = Subject;
+			sourceTree = "<group>";
+		};
+		E26ADA5427DA0E7F0027F4BD /* LoginDemoByLatestCombine */ = {
+			isa = PBXGroup;
+			children = (
+				E26ADA5527DA0EDC0027F4BD /* LoginDemoByLatestCombine.swift */,
+			);
+			path = LoginDemoByLatestCombine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +237,7 @@
 				E26ADA4027D60EB00027F4BD /* Model.swift in Sources */,
 				E26ADA3E27D60D990027F4BD /* HomeViewModel.swift in Sources */,
 				E26ADA4627D643D50027F4BD /* ZipPublisher.swift in Sources */,
+				E26ADA5627DA0EDC0027F4BD /* LoginDemoByLatestCombine.swift in Sources */,
 				E26ADA4F27D8860A0027F4BD /* SubjectViewController.swift in Sources */,
 				E26ADA2A27D222660027F4BD /* SceneDelegate.swift in Sources */,
 				E26ADA4C27D77B360027F4BD /* CustomSubscriber.swift in Sources */,
